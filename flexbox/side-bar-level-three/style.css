@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.5625rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 4vh;
+}
+
+.box{
+    border: 1px solid silver;
+    height: calc(50vh - 4vh - 4vh);
+    margin-bottom: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (min-width: 568px){
+    .container{
+        flex-direction: row;
+    }
+    .box{
+        height: calc(100vh - 4vh -  8vh);
+        margin-right: 4vw;
+    }
+    .box1{
+        flex-grow: 4;
+    }
+    .box2{
+        flex-grow: 8;
+    }
+}

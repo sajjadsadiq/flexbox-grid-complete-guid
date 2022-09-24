@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 4vh;
+}
+
+.bloc-1{
+    display: flex;
+    gap: 4vh;
+    flex-direction: row;
+}
+.box{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh / 4);
+}
+
+.box-1{
+    flex: 1 1 100px;
+}
+.box-2{
+    flex: 1 1 100px;
+}
+.box-3{
+    flex: 1 1 100px;
+}

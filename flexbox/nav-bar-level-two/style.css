@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.5625rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media(min-width: 568px){
+    .container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
